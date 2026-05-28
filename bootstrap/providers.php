@@ -79,4 +79,9 @@ return [
     TaxServiceProvider::class,
     ThemeServiceProvider::class,
     UserServiceProvider::class,
+
+    /**
+     * Zoyica's service providers.
+     */
+    Zoyica\ZoyicaTheme\Providers\ZoyicaThemeServiceProvider::class,
 ];

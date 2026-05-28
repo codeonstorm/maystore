@@ -28,5 +28,11 @@ return [
             'build_directory' => 'themes/installer/default/build',
             'package_assets_directory' => 'src/Resources/assets',
         ],
+
+        'zoyicatheme' => [
+            'hot_file' => 'zoyicatheme-default-vite.hot',
+            'build_directory' => 'themes/zoyicatheme/default/build',
+            'package_assets_directory' => 'src/Resources/assets',
+        ],
     ],
 ];

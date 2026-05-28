@@ -10,7 +10,7 @@ return [
     |
     */
 
-    'shop-default' => 'default',
+    'shop-default' => 'zoyicatheme',
 
     'shop' => [
         'default' => [
@@ -21,6 +21,18 @@ return [
             'vite' => [
                 'hot_file' => 'shop-default-vite.hot',
                 'build_directory' => 'themes/shop/default/build',
+                'package_assets_directory' => 'src/Resources/assets',
+            ],
+        ],
+
+        'zoyicatheme' => [
+            'name' => 'Zoyica Theme',
+            'assets_path' => 'public/themes/zoyicatheme/default',
+            'views_path' => 'resources/themes/zoyicatheme/views',
+
+            'vite' => [
+                'hot_file' => 'zoyicatheme-default-vite.hot',
+                'build_directory' => 'themes/zoyicatheme/default/build',
                 'package_assets_directory' => 'src/Resources/assets',
             ],
         ],

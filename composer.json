@@ -20,6 +20,7 @@
         "astrotomic/laravel-translatable": "^11.0.0",
         "bagisto/bagisto-package-generator": "^2.1",
         "bagisto/image-cache": "dev-master",
+        "bagisto/rest-api": "^2.3",
         "barryvdh/laravel-dompdf": "^2.0.0",
         "diglactic/laravel-breadcrumbs": "^9.0",
         "elasticsearch/elasticsearch": "^8.10",
@@ -97,7 +98,9 @@
             "Webkul\\SocialShare\\": "packages/Webkul/SocialShare/src",
             "Webkul\\Tax\\": "packages/Webkul/Tax/src",
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
-            "Webkul\\User\\": "packages/Webkul/User/src"
+            "Webkul\\User\\": "packages/Webkul/User/src",
+            "Zoyica\\ZoyicaTheme\\": "packages/Zoyica/ZoyicaTheme/src"
+
         }
     },
     "autoload-dev": {
