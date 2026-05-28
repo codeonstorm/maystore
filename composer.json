@@ -99,8 +99,8 @@
             "Webkul\\Tax\\": "packages/Webkul/Tax/src",
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
             "Webkul\\User\\": "packages/Webkul/User/src",
-            "Zoyica\\ZoyicaTheme\\": "packages/Zoyica/ZoyicaTheme/src"
-
+            "Zoyica\\ZoyicaTheme\\": "packages/Zoyica/ZoyicaTheme/src",
+            "Zoyica\\ZoyicaApi\\": "packages/Zoyica/ZoyicaApi/src"
         }
     },
     "autoload-dev": {

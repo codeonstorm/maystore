@@ -84,4 +84,5 @@ return [
      * Zoyica's service providers.
      */
     Zoyica\ZoyicaTheme\Providers\ZoyicaThemeServiceProvider::class,
+    Zoyica\ZoyicaApi\Providers\ZoyicaApiServiceProvider::class,
 ];
