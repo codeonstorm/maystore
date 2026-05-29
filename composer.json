@@ -19,6 +19,7 @@
         "ext-tokenizer": "*",
         "astrotomic/laravel-translatable": "^11.0.0",
         "bagisto/bagisto-package-generator": "^2.1",
+        "bagisto/bagisto-rma": "^2.2",
         "bagisto/image-cache": "dev-master",
         "bagisto/rest-api": "^2.3",
         "barryvdh/laravel-dompdf": "^2.0.0",

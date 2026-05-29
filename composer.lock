@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "395847d24fd19a5b3c0f43077c682790",
+    "content-hash": "3a4818e6df5f4d0341f8792083a3a0c4",
     "packages": [
         {
             "name": "astrotomic/laravel-translatable",
@@ -135,6 +135,60 @@
                 "source": "https://github.com/bagisto/bagisto-package-generator/tree/v2.1.2"
             },
             "time": "2025-09-02T16:15:30+00:00"
+        },
+        {
+            "name": "bagisto/bagisto-rma",
+            "version": "v2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bagisto/bagisto-rma.git",
+                "reference": "da487a99f217b5c64f49953f733be1bc0c05b268"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bagisto/bagisto-rma/zipball/da487a99f217b5c64f49953f733be1bc0c05b268",
+                "reference": "da487a99f217b5c64f49953f733be1bc0c05b268",
+                "shasum": ""
+            },
+            "require": {
+                "konekt/concord": "^1.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": [],
+                    "providers": [
+                        "Webkul\\RMA\\Providers\\RMAServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webkul\\RMA\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bagisto",
+                    "homepage": "https://bagisto.com"
+                }
+            ],
+            "description": "help customers to request for return / cancel / exchange products during the stipulated time-period.",
+            "homepage": "https://github.com/bagisto/bagisto-rma",
+            "keywords": [
+                "bagisto",
+                "product rma",
+                "rma"
+            ],
+            "support": {
+                "issues": "https://github.com/bagisto/bagisto-rma/issues",
+                "source": "https://github.com/bagisto/bagisto-rma/tree/v2.2.3"
+            },
+            "time": "2025-02-11T10:28:29+00:00"
         },
         {
             "name": "bagisto/image-cache",
