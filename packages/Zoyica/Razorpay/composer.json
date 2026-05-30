@@ -1,0 +1,22 @@
+{
+    "name": "zoyica/razorpay",
+    "description": "Razorpay payment gateway integration for Bagisto",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoyica\\Razorpay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zoyica\\Razorpay\\Providers\\RazorpayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

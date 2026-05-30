@@ -101,7 +101,8 @@
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
             "Webkul\\User\\": "packages/Webkul/User/src",
             "Zoyica\\ZoyicaTheme\\": "packages/Zoyica/ZoyicaTheme/src",
-            "Zoyica\\ZoyicaApi\\": "packages/Zoyica/ZoyicaApi/src"
+            "Zoyica\\ZoyicaApi\\": "packages/Zoyica/ZoyicaApi/src",
+            "Zoyica\\ZoyicaVisitor\\": "packages/Zoyica/ZoyicaVisitor/src"
         }
     },
     "autoload-dev": {
